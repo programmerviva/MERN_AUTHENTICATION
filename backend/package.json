@@ -1,0 +1,37 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "A backend service for user authentication via email and mobile number, providing OTP verification through SMS and calls.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/programmerviva/mern-authentication.git"
+  },
+  "author": "Vikas Vaibhav",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/programmerviva/mern-authentication/issues"
+  },
+  "homepage": "https://github.com/programmerviva/mern-authentication#readme",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.9.3",
+    "node-cron": "^3.0.3",
+    "nodemailer": "^6.9.16",
+    "twilio": "^5.4.0",
+    "validator": "^13.12.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
